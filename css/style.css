@@ -1,0 +1,92 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    font-family:
+        Inter,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background: #F5F3EC;
+    color: #2B3B36;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+/* =========================
+   FOOTER - COPYRIGHT E LEGAL
+========================= */
+
+.footer-bottom {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.copyright {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.footer-legal {
+    display: flex !important;
+    align-items: center;
+    gap: 28px;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.footer-legal a {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+@media (max-width: 600px) {
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+}
+
+
+
+.footer-bottom.footer-reveal {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}

@@ -1,0 +1,57 @@
+.btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    padding: 12px 24px;
+
+    border-radius: 999px;
+
+    border: none;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.card {
+    border-radius: 18px;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(78, 111, 90, 0.25);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.section-title {
+    font-size: clamp(32px, 4vw, 52px);
+    font-weight: 700;
+}
+
+.section-title span {
+    color: var(--verde-claro);
+}
+
+
+
+.footer-bottom.footer-reveal {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
