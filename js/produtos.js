@@ -23,8 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!menuButton || !nav) {
         return;
     }
-
-
     menuButton.addEventListener(
         "click",
         () => {
@@ -62,10 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         }
     );
-
-
-    
-
     nav
         .querySelectorAll("a")
         .forEach((link) => {
@@ -85,7 +79,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 }
             );
-
         });
-
 });
